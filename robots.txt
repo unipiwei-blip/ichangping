@@ -1,3 +1,7 @@
+# Robots for www.ichangping.cn
+# 404 error page is excluded from crawling and indexing
 User-agent: *
 Allow: /
+Disallow: /404.html
+
 Sitemap: https://www.ichangping.cn/sitemap.xml

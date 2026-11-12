@@ -186,6 +186,13 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 .pager button.on{background:var(--blue);color:#fff;border-color:var(--blue)}
 .pager button:disabled{opacity:.42;cursor:default}
 .pager .pager-info{font-size:12.5px;color:var(--muted);margin-left:10px;font-weight:700}
+/* ---------- 404 ---------- */
+.error-box{max-width:760px;margin:0 auto;padding:18px 0}
+.err-code{font-size:clamp(84px,12vw,148px);line-height:1.05;font-weight:900;letter-spacing:-.06em;background:linear-gradient(105deg,#1668ff,#8a3ff0 58%,#e2157f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.error-box h1{font-size:clamp(22px,2.4vw,30px);font-weight:900;margin-top:6px}
+.friend-list{display:flex;justify-content:center;flex-wrap:wrap;gap:10px}
+.friend-list a{font-size:13.5px;font-weight:700;color:var(--blue-deep);background:rgba(255,255,255,.85);border:1px solid var(--line);border-radius:999px;padding:9px 18px;transition:.2s}
+.friend-list a:hover{border-color:var(--blue);box-shadow:var(--shadow)}
 
 /* ---------- 文章页 ---------- */
 .article-wrap{max-width:900px;margin:0 auto;text-align:center}
