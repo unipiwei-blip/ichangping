@@ -204,7 +204,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
 .article-cover{margin:26px auto;border-radius:20px;overflow:hidden;box-shadow:var(--shadow);max-width:860px}
 .article-cover img{width:100%;max-height:430px;object-fit:cover}
 .article-body{max-width:780px;margin:26px auto 0;text-align:center}
-.article-body p{font-size:15.5px;line-height:2.15;color:var(--ink-2);margin-bottom:16px;text-align:center}
+.article-body p{font-size:15.5px;line-height:2.15;color:var(--ink-2);margin-bottom:16px;text-align:left;text-indent:2em}
 .article-body h2{font-size:19px;font-weight:900;margin:30px 0 14px;color:var(--blue-deep)}
 .article-body figure{margin:24px auto}
 .article-body figure img{border-radius:16px;box-shadow:var(--shadow);width:100%}
