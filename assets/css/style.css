@@ -309,7 +309,7 @@ body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opa
   .article-body p{font-size:15px;line-height:2.05;margin-bottom:20px}
   .article-body h2{font-size:17px;margin:26px 0 12px}
   .article-body figure{margin:20px 6px}
-  .article-body figure img{max-height:230px;object-fit:cover}
+  .article-body figure img{height:auto;object-fit:contain}
   .article-body figcaption{margin-top:6px;line-height:1.7}
   .article-tags{margin-top:24px;gap:6px}
   .related{margin-top:34px;padding-top:22px}
